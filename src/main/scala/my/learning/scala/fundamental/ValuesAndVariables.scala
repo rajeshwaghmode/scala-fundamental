@@ -1,6 +1,6 @@
 package my.learning.scala.fundamental
 
-object ScalaValuesAndVariables extends App{
+object ValuesAndVariables extends App{
   println("Hello World from Scala!")
 
   val message = "Hellow"  //Values are Immutable

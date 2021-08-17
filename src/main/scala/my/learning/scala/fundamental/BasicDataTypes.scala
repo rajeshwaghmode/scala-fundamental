@@ -1,6 +1,6 @@
 package my.learning.scala.fundamental
 
-object ScalaBasicDataTypes extends App{
+object BasicDataTypes extends App{
   var byteValue: Byte = 127
   var shortValue: Short = 1001
   var intValue: Int = 1001
