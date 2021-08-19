@@ -55,9 +55,9 @@ object DataStructures extends App {
   //Map
   val employeesMap = Map(72697-> employee1, 72698-> employee2, 72699 -> employee3)
   println(employeesMap)
-  println(s"72697 : $employeesMap(72697)._2")
-  println(s"72698 : $employeesMap(72698)._2")
-  println(s"72699 : $employeesMap(72699)._2")
+  println(s"72697 : ${employeesMap(72697)._2}")
+  println(s"72698 : ${employeesMap(72698)._2}")
+  println(s"72699 : ${employeesMap(72699)._2}")
 //  employeesMap(72800) //NoSuchElementException: key not found: 72800
   val result = util.Try(employeesMap(72800)).getOrElse("Unknown") //Exception handling
   println(result)
